@@ -180,8 +180,7 @@ clock:ResumeAt(2)
 
 ## Dependencies
 
-* [sleitnick/Signal](https://github.com/Sleitnick/Signal) — event handling
-* [sleitnick/Trove](https://github.com/Sleitnick/Trove) — automatic cleanup of objects and signals
+* [Signal and Trove](https://github.com/Sleitnick/RbxUtil) — event handling and automatic cleanup of objects and signals
 * [Wally](https://wally.run/) — Roblox package manager
 
 ---
