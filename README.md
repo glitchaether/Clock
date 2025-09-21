@@ -22,13 +22,24 @@ Then run:
 wally install
 ```
 
-### Manual
+### GitHub
 
-Copy `Clock.luau` into your game and `require` it directly:
-
-```lua
-local Clock = require(path_to_clock)
+Install Packages folder and set up with Rojo.
+You can either parent it to `src/shared` or update `defaul.project.json` (Recommended)
+```json
+"ReplicatedStorage": {
+    "Shared": {
+        "$path": "src/shared"
+    },
+    "Packages": {
+        "$path": "Packages"
+    },
+}
 ```
+
+### Roblox
+
+You can download whole module on [Roblox](https://create.roblox.com/store/asset/79474916283041/Clock)
 
 ---
 
