@@ -365,7 +365,7 @@ function Clock.new(interval: number?, destiny: number?, startingTick: number?): 
         onTick = trove:Add(Signal.new()),
     }, Clock)
 
-    return table.freeze(self)
+    return self
 end
 
-return table.freeze(Clock)
+return Clock
