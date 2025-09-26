@@ -3,7 +3,7 @@ name = "glitchaether/clock"
 description = "Helpful clock module. See doc on https://github.com/glitchaether/Clock"
 author = ["Glitch Aether"]
 license = "MIT"
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 

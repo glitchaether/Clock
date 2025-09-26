@@ -1,5 +1,5 @@
-local Signal = require(script.Parent.Parent.signal)
-local Trove = require(script.Parent.Parent.trove)
+local Signal = require(script.Parent.signal)
+local Trove = require(script.Parent.trove)
 
 type Signal = {
     Fire: (...any) -> (),
