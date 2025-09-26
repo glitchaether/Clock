@@ -13,7 +13,7 @@ Add to your `wally.toml`:
 
 ```toml
 [dependencies]
-Clock = "glitchaether/clock@0.1.3"
+Clock = "glitchaether/clock@1.0.1"
 ```
 
 Then run:
